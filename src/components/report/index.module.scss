@@ -1,0 +1,40 @@
+@import "../../theme/variable.scss";
+
+.report {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__month {
+    padding: 30px;
+    border: 1px solid #ffc5a7;
+    margin: 0 15px 20px 0;
+    font-weight: 600;
+  }
+  .red {
+    border: 1px solid $color-red;
+  }
+  .green {
+    border: 1px solid $color-green;
+  }
+  .blue {
+    border: 1px solid $color-blue;
+  }
+  .grey {
+    border: 1px solid $color-grey;
+  }
+}
+
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  &__title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateX(50px);
+  }
+  &__btn {
+    align-self: center;
+  }
+}

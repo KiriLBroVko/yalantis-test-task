@@ -1,0 +1,22 @@
+.header {
+  &__content {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    padding: 15px 0;
+    font-size: 22px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid #ffc5a7;
+    border-top: 10px solid #026398;
+  }
+}
+
+
